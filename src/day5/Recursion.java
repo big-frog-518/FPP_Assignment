@@ -14,8 +14,8 @@ public class Recursion {
 
     public static void main(String[] args) {
         displayReverseNum(123);
-        System.out.println("count: "+countDigits(123));
-        System.out.println("sum: " + sumArray(new int[]{1,2,3},3));
+        System.out.println("count: " + countDigits(123));
+        System.out.println("sum: " + sumArray(new int[]{1, 2, 3}, 3));
     }
 
 
@@ -31,20 +31,20 @@ public class Recursion {
     }
 
     //q2
-    static int countDigits(int n){
+    static int countDigits(int n) {
         int count = 0;
-        if (n<10){
+        if (n < 10) {
             return 1;
-        }else {
-            return 1+countDigits(n/10);
+        } else {
+            return 1 + countDigits(n / 10);
         }
     }
 
     static int sumArray(int[] arr, int n) {
-        if (n==0){
+        if (n == 0) {
             return 0;
-        }else {
-            return arr[n-1]+sumArray(arr,n-1);
+        } else {
+            return arr[n - 1] + sumArray(arr, n - 1);
         }
     }
 
