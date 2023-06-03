@@ -14,8 +14,8 @@ public class Recursion {
 
     public static void main(String[] args) {
         displayReverseNum(123);
-        System.out.println(countDigits(123));
-        System.out.println("sum:" + sumArray(new int[]{1,2,3},3));
+        System.out.println("count: "+countDigits(123));
+        System.out.println("sum: " + sumArray(new int[]{1,2,3},3));
     }
 
 
