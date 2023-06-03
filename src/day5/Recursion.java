@@ -41,7 +41,6 @@ public class Recursion {
     }
 
     static int sumArray(int[] arr, int n) {
-        int sum = 0;
         if (n==0){
             return 0;
         }else {
