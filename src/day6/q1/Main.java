@@ -12,6 +12,7 @@ public class Main {
         shapes[2] = new Square("green", 4.0);
         shapes[3] = new Rectangle("grey", 6.0, 2.0);
         shapes[4] = new Circle("white", 3.0);
+        print(shapes);
     }
 
     public static void print(Shape[] shapes) {
