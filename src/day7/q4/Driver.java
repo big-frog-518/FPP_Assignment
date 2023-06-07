@@ -7,7 +7,7 @@ package day7.q4;
 public class Driver {
     public static void main(String[] args) {
         // Employee is abstract class so can not create
-        BasePlusCommissionEmployee basePlusCommissionEmployee = new BasePlusCommissionEmployee("Jinxu", "Zheng", "100", 1000, 1000);
+        BasePlusCommissionEmployee basePlusCommissionEmployee = new BasePlusCommissionEmployee("Jinxu", "Zheng", "100", 1000, 1000,500);
         CommissionEmployee commissionEmployee = new CommissionEmployee("Thao", "Vu", "101", 2000, 10);
         HourlyEmployee hourlyEmployee = new HourlyEmployee("Brian", "Siddique", "102", 16.5, 100);
         SalariedEmployee salariedEmployee = new SalariedEmployee("Shelly", "Bastos", "103", 200);
